@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:gh": "ng build --prod --base-href='https://magnum81.github.io/followers-app/' && ngh --no-silent"
+    "deploy:gh": "ng build --prod --base-href='https://magnum81.github.io/followers-app/' && ngh --no-silent",
+    "deploy:firebase": "ng build --prod && firebase deploy"
   },
   "private": true,
   "dependencies": {
